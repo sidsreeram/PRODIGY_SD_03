@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Contact Manager</h1>
+
+    <h2>Add Contact</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="phone" placeholder="Phone">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="addContact()">Add Contact</button>
+
+    <h2>Contact List</h2>
+    <table id="contactTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

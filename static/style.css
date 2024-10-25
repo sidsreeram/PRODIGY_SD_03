@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light Grey Background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff; /* White Background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #1a73e8; /* Blue Color */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #1a73e8; /* Blue Color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1558b2; /* Darker Blue on Hover */
+}
+
+/* Contact Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #1a73e8; /* Blue Header */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f0f4f8; /* Light Grey Row */
+}
+
+table tr:hover {
+    background-color: #ddd; /* Light Hover Effect */
+}
+
+/* Buttons for Edit/Delete */
+button.edit-btn, button.delete-btn {
+    background-color: #1a73e8; /* Blue Color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.edit-btn:hover {
+    background-color: #1558b2; /* Darker Blue on Hover */
+}
+
+button.delete-btn {
+    background-color: #d9534f; /* Red for Delete */
+}
+
+button.delete-btn:hover {
+    background-color: #c9302c; /* Darker Red on Hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
